@@ -78,3 +78,10 @@ textarea{
   height: 150px;
 
 }
+
+#behaviors td, #behaviors th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#behaviors tr:nth-child(even){background-color: #f2f2f2;}
