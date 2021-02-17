@@ -66,8 +66,27 @@ page2+= '<div class="warmup"><div class="warm"><h3>Warm-Up Activity: Warm-Up Act
 page2+= '<ul><li>1. How have your customer’s expectations evolved over the past three years?</li><li>2. In your opinion, who do you consider delivers an exceptional customer experience? What makes their client experience memorable? (Note: could be any competitor, or even a service you seek outside of our industry i.e. a favourite coffee provider)</li><li>3. Consider our current customer experience. What do you think that we do well? What might we improve on?</li></ul></div></div>'
 page2+= '<textarea>Write down some of your thoughts</textarea>'
 
-var page3 = "<div style='background-image: url('./assets/businessGroup.jpg')'>What is a Customer Engagement Model?</div>"
-var array = [page1, page2, page3];
+var page3 = "<div>What is a Customer Engagement Model?</div>"
+page3+= '<p>The First Premium Bank Customer Engagement Model provides a framework and process for allowing us to enhance our customer experience. The goal is to make it easier for us to provide consistent and excellent customer service across the globe.</p>'
+page3+= '<h4>What are the Benefits?</h4>'
+page3+= '<ul><li>1. Provides employees across the company with a common understanding of how to deliver a ‘great’ customer experience.</li>'
+page3+= '<li>2. Customers receive a consistent and excellent client experience no matter which division they deal with.</li>'
+page3+= '<li>3. Coaches learn which behaviours to support in the workplace to enable better service.</li>'
+page3+= 'Whether our customer is phoning into the call center, applying for a mortgage or trading investments online, they should receive expert advice and premium service from our teams to help guide their choices.'
+
+var page4 = '<h4>Why is this important?</h4>'
+page4+= '<p>Consider the following statistics</p>'
+page4+= '<ul><li>It costs between five and six times more to attract a new customer than to keep an existing one</li>'
+page4+= '<li>Companies can boost profits anywhere from 25 to 125% by retaining merely 5% more existing customers</li><ul>'
+page4+= '<p>According to Bruce Tempkin, author of The 6 Laws of Customer Experience, there is a high correlation between a customer’s experience and their willingness to make another purchase. Great customer experiences also drive customer loyalty, which leads to further sales. Customers who are satisfied are also more likely to recommend a company’s products or services to others</p>'
+page4+= '<p>Delivering great customer experiences isn’t something that a small group of people can do on their own – everyone in the company needs to be fully engaged in the effort to make it happen.</p>'
+page4+= '<p>We believe that through deepening our engagement with our customers, we will be able to retain customers and grow relationships. By getting to know our customers, we will be able to better understand their needs, so we can provide expert advice and recommend solutions that are right for them.</p>'
+
+
+
+
+
+var array = [page1, page2, page3, page4];
 
 function createPage(){
     for ( var i = 0; i < array.length; i++){
